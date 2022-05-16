@@ -40,9 +40,13 @@ header ul li a:hover {
   background: #ffffff;
   color: #ffffff;
   padding: 8px;
+  position: absolute;
+  clip: rect(0,0,0,0);
 }
 
 .skip-to-content-link:focus {
   border-color: black;
   color: black;
+  position: relative;
+  clip:auto;
 }
