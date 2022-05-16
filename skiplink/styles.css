@@ -35,3 +35,14 @@ header ul li a {
 header ul li a:hover {
   border-bottom: 1px solid #333;
 }
+
+.skip-to-content-link {
+  background: #ffffff;
+  color: #ffffff;
+  padding: 8px;
+}
+
+.skip-to-content-link:focus {
+  border-color: black;
+  color: black;
+}
